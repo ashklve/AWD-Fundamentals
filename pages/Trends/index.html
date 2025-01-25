@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
+    <script src="assets/js/scripts.js" defer></script>
 </head>
 <body> 
     <header class="header">
@@ -17,7 +18,7 @@
             </div>
             <ul class="nav-links">
                 <li><a href="../../index.html">Home</a></li>
-                <li><a href="../About/index.html">About</a></li>
+                <li><a href="index.html">About</a></li>
             </ul>
         </nav>
     </header>
@@ -40,7 +41,7 @@
                 <a href="https://www.drmartens.com/us/en/1461-bex-smooth-leather-shoes-black/p/21084001">Shoes</a>
             </div>
             <div class="ideas">
-                <img src="assets/img/trendtwo.jpg" alt="Outfit 2">
+                <img src="assets/img/trendTwo.jpg" alt="Outfit 2">
                 <h2>Jersey Jorts</h2>
                 <p>The Best Streetwear for you!</p>
                 <p>Get the items for the look below:</p>
@@ -49,7 +50,7 @@
                 <a href="https://www.adidas.com/us/samba-og-shoes/IF4398.html">Shoes</a>
             </div>
             <div class="ideas">
-                <img src="assets/img/trendthree.jpg" alt="Outfit 3">
+                <img src="assets/img/trendThree.jpg" alt="Outfit 3">
                 <h2>Black & Flare</h2>
                 <p>Classy Chic Fit</p>
                 <p>Get the items for the look below:</p>
@@ -59,7 +60,13 @@
             </div>
         </div>
 
-        <div class="interactive">
+        <div class="local">
+            <h2>Local Brand Recos for you!</h2>
+            <p>Below are Top Pick brands by our Filo Gensee</p>
+            <ul id="brandsList"></ul>
+        </div>
+
+        <div class="favbrand">
             <h2>What's Your Favorite Brand?</h2>
             <p>Enter your favorite brand below to see if it's one of the top picks!</p>
             <input type="text" id="userInput" placeholder="Enter brand name">
@@ -67,5 +74,11 @@
             <p id="output"></p>
         </div>
     </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Twenty05 Women. All Rights Reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>

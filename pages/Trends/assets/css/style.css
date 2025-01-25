@@ -4,6 +4,12 @@ body {
   padding: 0;
   background-color: #f9f9f9; 
   color: #333; 
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+main {
+  flex-grow: 1;
 }
 
 .header {
@@ -40,7 +46,7 @@ nav {
 }
 
 .nav-links a:hover {
-  color: #007bff; /* Changed hover color for better visibility */
+  color: #007bff; 
 }
 
 .banner {
@@ -93,7 +99,20 @@ nav {
   text-decoration: underline;
 }
 
-.interactive {
+.local {
+  display: flex;               
+  flex-direction: column;      
+  align-items: center; 
+  border: 1px solid #ccc;
+  margin: 20px auto; 
+  border-radius: 10px;
+}
+
+.local h2, .local p {
+  margin: 10px 0; 
+}
+
+.favbrand {
   text-align: center;
   margin-top: 40px;
   padding: 20px;
@@ -101,7 +120,7 @@ nav {
   border-radius: 10px;
 }
 
-.interactive input {
+.favbrand input {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -110,7 +129,7 @@ nav {
   margin-bottom: 10px;
 }
 
-.interactive button {
+.favbrand button {
   padding: 10px 20px;
   background-color: #007bff;
   color: #fff;
@@ -120,11 +139,26 @@ nav {
   transition: background-color 0.3s;
 }
 
-.interactive button:hover {
+.favbrand button:hover {
   background-color: #0056b3;
 }
 
-.interactive p {
+.favbrand p {
   margin-top: 10px;
   color: #555;
+}
+
+.footer {
+  background-color: #222222; 
+  color: #ffffff;  
+  text-align: center;
+  padding: 20px 0; 
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.footer p {
+  font-size: 16px;
+  margin: 0;
 }

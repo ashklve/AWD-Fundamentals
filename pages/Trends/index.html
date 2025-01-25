@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gensee</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
+</head>
+<body> 
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-logo"> 
+                <img src="assets/img/Logo.png" alt="Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../About/index.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <header class="banner">
+        <img src="assets/img/banner.jpg" alt="Banner Image" class="banner-img">
+    </header>
+
+    <div class="container">
+        <h1>Top Picks</h1>
+        <h2>Featured: Uniqlo, Dr. Martens, & Zara!</h2>
+
+        <div class="trends">
+            <div class="ideas">
+                <img src="assets/img/download.jpg" alt="Outfit 1">
+                <h2>Casual Navy</h2>
+                <p>Great for Cafe Dates</p>
+                <p>Get the items for the look below:</p>
+                <a href="https://www.zara.com/ph/en/textured-cotton-blend-sweater-p04696410.html?v1=410597922&v2=2432254">Top</a>
+                <a href="https://www2.hm.com/en_asia5/productpage.1261598002.html">Bottom</a>
+                <a href="https://www.drmartens.com/us/en/1461-bex-smooth-leather-shoes-black/p/21084001">Shoes</a>
+            </div>
+            <div class="ideas">
+                <img src="assets/img/trendtwo.jpg" alt="Outfit 2">
+                <h2>Jersey Jorts</h2>
+                <p>The Best Streetwear for you!</p>
+                <p>Get the items for the look below:</p>
+                <a href="https://ameri-camden.com/products/brasil-crop-top-in-yellow">Top</a>
+                <a href="https://www.grailed.com/listings/73007206-streetwear-x-vintage-vintage-jorts?g_aidx=Listing_production&g_aqid=f3a5e8a92b7a3fca617c9322e2eb516b">Bottom</a>
+                <a href="https://www.adidas.com/us/samba-og-shoes/IF4398.html">Shoes</a>
+            </div>
+            <div class="ideas">
+                <img src="assets/img/trendthree.jpg" alt="Outfit 3">
+                <h2>Black & Flare</h2>
+                <p>Classy Chic Fit</p>
+                <p>Get the items for the look below:</p>
+                <a href="https://www.amazon.com/dp/B0D6VFPYWQ/ref=sspa_dk_detail_0?psc=1&pd_rd_i=B0D6VFPYWQ&pd_rd_w=3dI4P&content-id=amzn1.sym.c4606765-78ec-444e-9319-716ceb6c5a61&pf_rd_p=c4606765-78ec-444e-9319-716ceb6c5a61&pf_rd_r=ER1QEW4DJKMPPB6NA0QB&pd_rd_wg=Dg5XC&pd_rd_r=f2bbf747-3fe0-4f91-929f-bd4b085cc1e5&s=apparel&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM">Top</a>
+                <a href="https://www.next.co.uk/style/su212460/362363#362363    ">Bottom</a>
+                <a href="https://www.charleskeith.com/ph/CK1-60361539_BLKBOX.html">Shoes</a>
+            </div>
+        </div>
+
+        <div class="interactive">
+            <h2>What's Your Favorite Brand?</h2>
+            <p>Enter your favorite brand below to see if it's one of the top picks!</p>
+            <input type="text" id="userInput" placeholder="Enter brand name">
+            <button onclick="checkBrand()">Submit</button>
+            <p id="output"></p>
+        </div>
+    </div>
+</body>
+</html>

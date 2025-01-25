@@ -1,0 +1,130 @@
+body {
+  font-family: 'Gruppo', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9; 
+  color: #333; 
+}
+
+.header {
+  background: #EAE2C6;
+  color: #000;
+  padding: 10px 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #EAE2C6;
+  box-shadow: 0 2px 5px #e6e6e6;
+}
+
+.nav-logo img {
+  height: 50px;
+  width: auto;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #007bff; /* Changed hover color for better visibility */
+}
+
+.banner {
+  text-align: center;
+  padding: 50px;
+  background-color: #f4f4f4;
+  background-image: linear-gradient(to bottom, #f4f4f4, #e0ded8); /* Subtle gradient for the banner */
+}
+
+.container {
+  padding: 20px;
+}
+
+.trends {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.ideas {
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #fff;
+  transition: transform 0.3s, box-shadow 0.3s; /* Added hover effect transitions */
+}
+
+.ideas:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ideas img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.ideas a {
+  display: block;
+  margin: 10px 0;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.ideas a:hover {
+  text-decoration: underline;
+}
+
+.interactive {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #eaeaea;
+  border-radius: 10px;
+}
+
+.interactive input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 300px;
+  margin-bottom: 10px;
+}
+
+.interactive button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.interactive button:hover {
+  background-color: #0056b3;
+}
+
+.interactive p {
+  margin-top: 10px;
+  color: #555;
+}
